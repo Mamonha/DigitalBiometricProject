@@ -1,9 +1,9 @@
 <?php
 
-include 'conexion.php';
+include 'connection.php';
 date_default_timezone_set('America/Sao_Paulo');
 if ($con) {
-    echo "Conexão deu certo poha ";
+    echo "Successfully connected";
 
     print_r($_POST);
 
@@ -24,7 +24,7 @@ $consulta = "SELECT * FROM usuario";
 $res =  $con->query($consulta);
 
 echo "
-            <title>Sistema biométrico onibus</title>
+            <title>Sistema biométrico</title>
         
             <style>
                 * {
