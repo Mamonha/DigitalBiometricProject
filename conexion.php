@@ -1,9 +1,9 @@
 <?php
  
         $user = "root";
-        $pass = "cariocadorio123";
-        $server = "34.151.255.193";
-        $db ="esp8266";
+        $pass = "";
+        $server = "0.0.0.0";
+        $db ="esp8266db";
         $con = mysqli_connect($server, $user, $pass, $db);
 
        
